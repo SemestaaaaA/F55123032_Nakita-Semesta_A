@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+    </ul>
+
+    <ol>
+        <li>Parker</li>
+        <li>Semesta</li>
+        <li>Prazken</li>
+    </ol>
+
+    <table border="1">
+
+        <tr>
+            <th>No.</th>
+            <th>NIM</th>
+            <th>NAMA</th>
+            <th>PRODI</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>F55123032</td>
+            <td>NAKITA SEMESTA</td>
+            <td>S1-Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>F55123999</td>
+            <td>Nietzche</td>
+            <td>S1-Filsafat</td>
+        </tr>
+    </table>
+
+    <table border="1" width="100%">
+
+        <tr>
+            <th height="30px">No.</th>
+            <th>NIM</th>
+            <th width 20%>NAMA</th>
+            <th>PRODI</th>
+            <th>ASDOS</th>
+            <th colspan="5">absen</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>F55123032</td>
+            <td>SEMESTA</td>
+            <td>S1-Teknik Informatika</td>
+            <td rowspan="2">Pemrogramana Web-1 kelas abangku</td>
+            <td>hadir</td>
+            <td>alpa</td>
+            <td>hadir</td>
+            <td>alpa</td>
+        </tr>
+                <tr>
+            <td>2</td>
+            <td>F55123999</td>
+            <td>Nietzche</td>
+            <td>S1-Filsafat</td>
+            <td rowspan="2">Pemrogramana Web-1 kelas abangku</td>
+            <td>hadir</td>
+            <td>alpa</td>
+            <td>hadir</td>
+            <td>alpa</td>
+            <br><br><br><br>
+        </tr>
+    </table><br><br><br><br>
+    <!-- input -->
+    <form action="">
+        <label>Nama</label><br>
+        <input type="text" name="nama" id="nama"><br>
+        <label>email</label><br>
+        <input type="Email" name="mail" id="mail"><br>
+        <label>Password</label><br>
+        <input type="password" name="pass" id="pass"><br>
+        <label>Gender</label><br>
+        <input type="radio" name="jk" id="jk" value="Male">Male
+        <input type="radio" name="jk" id="jk" value="Female">Female
+        <br>
+        <label>Matakuliah</label><br>
+        <input type="checkbox" name="mk" id="mk" value="web 1"> web 1
+        <input type="checkbox" name="mk" id="mk" value="rpl"> rpl
+        <input type="checkbox" name="mk" id="mk" value="filasafat"> filasafat
+        <input type="checkbox" name="mk" id="mk" value="Mobile"> Mobile
+        <br>
+        <label>Tanggal lahir</label><br>
+        <input type="date" name="tgllahir" id="tgllahir"><br>
+        <label>Pilih Warna</label><br>
+        <input type="color" name="Warna" id="Warna"><br>
+        <label>Upload File</label><br>
+        <input type="file" name="file" id="file"><br>
+        <label>qty</label><br>
+        <input type="number" name="qty" id="qty"><br>
+        <label>Hidden</label><br>
+        <input type="hidden" name="hilang" id="hilang"><br>
+        <label>1 - 100</label><br>
+        <input type="range" name="range" id="range" value="50"><br>
+        <label>Tombol Submit</label><br>
+        <input type="submit" name="submit" id="submit"><br>
+        <label>Tombol reset</label><br>
+        <input type="reset" name="reset" id="reset"><br>
+
+        <!-- input lain -->
+        <label>text area</label><br>
+        <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea><br>
+        <label>Pilih agama</label><br>
+        <select name="agama" id="agama">
+            <option disabled ="disable">Pilih agama</option>
+            <option value="islam">islam</option>
+            <option value="kristen">kristen</option>
+            <option value="hindu">hindu</option>
+            <option value="budha">budha</option>
+        </select>
+
+        <label>pillih siswa</label><br>
+        <input type="datasiswwa" name="siswa" id="siswa">
+        <datalist id="datasiswwa">
+            <option value="Diogenes">Diogenes</option>
+            <option value="machumacu">machumacu</option>
+            <option value="Jekjek">Jekjek</option>
+            <option value="grimaldo">grimaldo</option>
+        </datalist><br><br>
+
+        <button>ini Tombol</button><br>
+
+        <fieldset>
+            <legend>pendaftaran</legend>
+            <label>Nama lengkap</label><br>
+            <input type="text" name="" id=""><br>
+            <label>umur</label><br>
+            <input type="number" name="" id=""><br><br>
+
+            <button>daftar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
