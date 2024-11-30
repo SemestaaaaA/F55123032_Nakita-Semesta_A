@@ -1,0 +1,206 @@
+/* Reset dan gaya dasar */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #333333ec;
+
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+  }
+  
+  .nav-menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .search-box input {
+    padding: 5px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    color: #ffffffb7;
+    text-align: center;
+    padding: 50px 20px;
+    font-size: large;
+  }
+  
+  /* Layout Konten */
+  .content {
+    display: flex;
+    gap: 20px;
+    padding: 40px;
+}
+
+.weapon-grid {
+    display: flex;
+    gap: 40px; 
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 10px;
+    scrollbar-width: thin;
+    color: #ffffffb7;
+}
+
+.weapon {
+    flex: 0 0 auto; /* Menghindari weapon menyusut */
+    width: 250px;
+    text-align: center;
+}
+
+.weapon img {
+    width: 100%;
+    height: 380px; 
+    object-fit: cover; 
+    border-radius: 8px;
+    background-color: #000; 
+}
+
+.weapon h4 {
+    margin: 10px 0; /* Memberikan margin vertikal */
+    text-align: center;
+    font-size: 16px; /* Ukuran font proporsional */
+    line-height: 1.5;
+}
+
+.weapon button {
+    display: block;
+    margin: 10px auto 0; /* Memastikan tombol terpusat */
+    padding: 8px 12px;
+    background: #333;
+    color: #ffffffb7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.weapon button:hover {
+    background-color: #0056b3;
+}
+
+/* Scrollbar khusus untuk browser yang mendukung */
+.weapon-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.weapon-grid::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+.weapon-grid::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
+
+
+/* Scrollbar khusus untuk browser yang mendukung */
+.weapon-grid::-webkit-scrollbar {
+    height: 8px;
+}
+
+.weapon-grid::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+.weapon-grid::-webkit-scrollbar-thumb:hover {
+    background: #333;
+}
+
+/* about */
+.about-hero {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../tugas3/img/hero.jpg') no-repeat center center/cover;
+    padding: 50px 20px;
+    color: #ffffffb7;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* About Content */
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
+.about-text {
+    flex: 1 1 60%;
+    color: #ffffffb7;
+}
+
+.about-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #00aaff;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-text ul li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.about-text ul li::before {
+    content: '✔';
+    color: #00aaff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.about-image {
+    flex: 1 1 30%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border:2px solid #000;
+}
+  /* Footer */
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: #333;
+    color: #ffffffb7;
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #ffffffb7;
+}
